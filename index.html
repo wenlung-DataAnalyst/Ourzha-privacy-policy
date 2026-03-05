@@ -3,21 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - [Your App Name]</title>
+    <title>Privacy Policy | AI Alarm Clock</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
-        h1 { color: #222; }
-        h3 { margin-top: 25px; color: #444; }
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #374151;
+            --bg-color: #f9fafb;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background: var(--card-bg);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+        h1 {
+            color: #111827;
+            font-size: 2rem;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #1f2937;
+            font-size: 1.5rem;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #4b5563;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        p, li {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .effective-date {
+            font-style: italic;
+            color: #6b7280;
+            margin-bottom: 30px;
+        }
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            font-size: 0.875rem;
+            color: #9ca3af;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 0;
+                padding: 20px;
+                border-radius: 0;
+            }
+        }
     </style>
 </head>
 <body>
+
+<div class="container">
     <h1>Privacy Policy</h1>
-    <p><strong>Effective Date: March 4, 2026</strong></p>
+    <p class="effective-date">Effective Date: March 4, 2026</p>
+
+    <p>Welcome to <strong>[Your App Name]</strong> (hereinafter referred to as "the App"). We are committed to protecting your personal privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered alarm and morning briefing services.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>To provide a seamless AI alarm experience, we may collect the following types of information:</p>
+    <ul>
+        <li><strong>Device Information:</strong> Device model, operating system version, and unique device identifiers (e.g., IDFA/AAID) for performance optimization.</li>
+        <li><strong>Alarm & Preference Data:</strong> Alarm times, snooze patterns, and selected content preferences (e.g., YouTube links or news categories).</li>
+        <li><strong>AI Interaction Data:</strong> Text-based prompts or preference settings used to generate your personalized morning briefings.</li>
+    </ul>
+
+    <h2>2. Automated Decision-Making & Data Modeling</h2>
+    <p>As an AI-driven service, we employ data modeling and automated processing to enhance your experience:</p>
+    <ul>
+        <li><strong>Personalization Profiling:</strong> We use algorithms (including Large Language Models) to analyze your interaction history and preferences to curate "Morning Briefings." This ensures the news and information provided are relevant to you.</li>
+        <li><strong>Behavioral Modeling:</strong> We may use anonymized statistical models to analyze wake-up patterns to optimize our alarm reliability and notification logic.</li>
+        <li><strong>Your Rights:</strong> These processes are designed solely to improve service delivery. You have the right to request human intervention or contest any automated decision by contacting us.</li>
+    </ul>
+
+    <h2>3. Use of AI Services & Voice Data</h2>
+    <h3>Large Language Models (LLMs)</h3>
+    <p>Your non-identifiable requests are processed via third-party AI providers (such as Google Gemini or OpenAI). No personally identifiable information (PII) is shared with these models unless explicitly required by the prompt.</p>
     
-    <h3>1. Information We Collect</h3>
-    <p>To provide a seamless AI alarm experience...</p>
-    
-    <hr>
-    <p>© 2026 [Your Name/Studio Name]. All rights reserved.</p>
+    <h3>Voice Processing</h3>
+    <ul>
+        <li><strong>Speech-to-Text:</strong> Audio commands are processed in real-time.</li>
+        <li><strong>Storage:</strong> We <strong>do not store</strong> raw audio files on our servers. Once the audio is converted to a text command, the audio data is immediately deleted.</li>
+        <li><strong>Opt-out:</strong> You can disable voice features at any time in the App settings.</li>
+    </ul>
+
+    <h2>4. Data Sharing & Third-Party Providers</h2>
+    <p>We do not sell your personal data. We share information only with service providers necessary to operate the App, including cloud infrastructure providers, analytics services (e.g., Firebase), and integrated media platforms (e.g., YouTube).</p>
+
+    <h2>5. International Data Transfers</h2>
+    <p>To provide AI services, your data may be transferred to and processed in countries outside of your residence. We ensure all service providers comply with <strong>Standard Contractual Clauses (SCCs)</strong> or equivalent data protection frameworks.</p>
+
+    <h2>6. Your Rights & Data Retention</h2>
+    <p>Under regulations such as the GDPR, you have the right to access, correct, or delete your personal data. You may also object to the processing of your data (including profiling) at any time through the App settings.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or our data practices, please contact us at:</p>
+    <p><strong>Email:</strong> [Your Contact Email]</p>
+
+    <footer>
+        <p>© 2026 [Your Name/Studio Name]. All rights reserved.</p>
+    </footer>
+</div>
+
 </body>
 </html>
